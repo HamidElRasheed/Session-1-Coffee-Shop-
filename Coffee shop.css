@@ -1,0 +1,53 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: burlywood;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: bold;
+    gap: 100px;
+    
+}
+nav a{
+        color: burlywood;
+        text-decoration: none;
+}
+nav a:hover{
+    color: blue;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#Menu{
+    text-align: center;
+}
+#menu-items{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.coffee-options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: burlywood;
+}
